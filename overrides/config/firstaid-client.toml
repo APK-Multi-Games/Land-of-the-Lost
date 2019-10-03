@@ -1,0 +1,27 @@
+
+#Client only configuration settings
+[Overlay]
+	#If true the overlay will automatically be hidden while health isn't changing. It will be shown when connecting and any health changes
+	hideOnNoChange = false
+	#The offset on the y axis
+	#Range: -32768 ~ 32767
+	yOffset = 1
+	#The offset on the x axis
+	#Range: -32768 ~ 32767
+	xOffset = 0
+	#The relative point of the overlay
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_RIGHT, BOTTOM_LEFT
+	overlayPosition = "TOP_LEFT"
+	#Determines the transparency of the overlay. 200 = Maximum transparency, 0 = Fully opaque
+	#Range: 0 ~ 200
+	alpha = 50
+	#True if the main health bar should be rendered (Will be average health)
+	showVanillaHealthBar = false
+	#The design to use to visualize the health
+	#Allowed Values: OFF, NUMBERS, HEARTS, PLAYER_MODEL
+	overlayMode = "PLAYER_MODEL"
+
+[Misc]
+	#Set to true to enable the debuff sounds. Only matters when debuffs are enabled
+	enableSoundSystem = true
+

@@ -1,0 +1,113 @@
+
+["World Generation"]
+
+	["World Generation"."Hardstone Settings"]
+		hardstoneGenBiomeWhitelist = ["minecraft:desert_hills", "minecraft:wooded_hills", "minecraft:jungle_hills", "minecraft:birch_forest_hills", "minecraft:snowy_taiga_hills", "minecraft:giant_tree_taiga_hills", "minecraft:swamp_hills", "minecraft:tall_birch_hills", "minecraft:dark_forest_hills", "minecraft:giant_spruce_taiga_hills", "minecraft:taiga_hills", "minecraft:bamboo_jungle_hills", "minecraft:mountains", "minecraft:snowy_mountains", "minecraft:mountain_edge", "minecraft:wooded_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains", "minecraft:modified_gravelly_mountains", "minecraft:gravelly_mountains"]
+		hardstoneGenIsEnabled = true
+		hardstoneGenBiomeBlacklist = []
+
+	["World Generation"."Darkstone Settings"]
+		darkstoneGenIsEnabled = true
+		darkstoneGenBiomeWhitelist = ["minecraft:mountains", "minecraft:snowy_mountains", "minecraft:mountain_edge", "minecraft:wooded_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains", "minecraft:modified_gravelly_mountains", "minecraft:gravelly_mountains"]
+		darkstoneGenBiomeBlacklist = []
+
+	["World Generation"."Soapstone Settings"]
+		soapstoneGenBiomeBlacklist = []
+		soapstoneGenBiomeWhitelist = []
+		soapstoneGenIsEnabled = true
+
+["OresAllEasy Ore Generation"]
+
+	["OresAllEasy Ore Generation"."Silver Ore"]
+		silverGenSpecialBiomes = []
+		silverGenBiomeBlacklist = []
+		silverGenBiomeWhitelist = []
+		#Ore vein data [size, count, bottom offset, top offset, max height]
+		silverGenCountRange = [9, 2, 16, 0, 36]
+		silverGenIsEnabled = true
+
+	["OresAllEasy Ore Generation"."Quartz Ore"]
+		quartzGenIsEnabled = true
+		#Ore vein data [size, count, bottom offset, top offset, max height]
+		quartzGenCountRange = [10, 8, 32, 0, 128]
+		quartzGenSpecialBiomes = []
+		quartzGenBiomeWhitelist = []
+		quartzGenBiomeBlacklist = []
+
+	["OresAllEasy Ore Generation"."Copper Ore"]
+		copperGenBiomeBlacklist = []
+		copperGenBiomeWhitelist = []
+		#Ore vein data [size, count, bottom offset, top offset, max height]
+		copperGenCountRange = [10, 15, 48, 0, 72]
+		copperGenSpecialBiomes = ["minecraft:savanna", "minecraft:savanna_plateau", "minecraft:shattered_savanna", "minecraft:shattered_savanna_plateau"]
+		copperGenIsEnabled = true
+
+	["OresAllEasy Ore Generation"."Aluminum Ore"]
+		aluminumGenIsEnabled = true
+		#Ore vein data [size, count, bottom offset, top offset, max height]
+		aluminumGenCountRange = [9, 6, 32, 0, 72]
+		aluminumGenBiomeWhitelist = []
+		aluminumGenBiomeBlacklist = []
+		aluminumGenSpecialBiomes = []
+
+	["OresAllEasy Ore Generation"."Tin Ore"]
+		tinGenIsEnabled = true
+		#Ore vein data [size, count, bottom offset, top offset, max height]
+		tinGenCountRange = [9, 5, 32, 0, 64]
+		tinGenSpecialBiomes = []
+		tinGenBiomeBlacklist = []
+		tinGenBiomeWhitelist = []
+
+["Vanilla Ore Generation"]
+
+	["Vanilla Ore Generation"."Diamond Ore"]
+		diamondGenIsEnabled = true
+		#Ore vein data [size, count, bottom offset, top offset, max height]
+		diamondGenCountRange = [8, 1, 0, 0, 16]
+		diamondGenSpecialBiomes = []
+		diamondGenBiomeBlacklist = []
+		diamondGenBiomeWhitelist = []
+
+	["Vanilla Ore Generation"."Emerald Ore"]
+		emeraldGenBiomeWhitelist = ["minecraft:mountains", "minecraft:mountain_edge", "minecraft:snowy_taiga_mountains", "minecraft:modified_gravelly_mountains", "minecraft:taiga_mountains", "minecraft:wooded_mountains", "minecraft:snowy_mountains", "minecraft:gravelly_mountains"]
+		emeraldGenBiomeBlacklist = []
+		emeraldGenIsEnabled = true
+
+	["Vanilla Ore Generation"."Gold Ore"]
+		#Ore vein data [size, count, bottom offset, top offset, max height]
+		goldGenCountRange = [9, 2, 0, 0, 32]
+		goldGenIsEnabled = true
+		goldGenSpecialBiomes = ["minecraft:badlands", "minecraft:wooded_badlands_plateau", "minecraft:badlands_plateau"]
+		goldGenBiomeWhitelist = []
+		goldGenBiomeBlacklist = []
+
+	["Vanilla Ore Generation"."Coal Ore"]
+		coalGenIsEnabled = true
+		#Ore vein data [size, count, bottom offset, top offset, max height]
+		coalGenCountRange = [17, 20, 0, 0, 128]
+		coalGenBiomeBlacklist = []
+		coalGenBiomeWhitelist = []
+		coalGenSpecialBiomes = []
+
+	["Vanilla Ore Generation"."Redstone Ore"]
+		redstoneGenIsEnabled = true
+		#Ore vein data [size, count, bottom offset, top offset, max height]
+		redstoneGenCountRange = [8, 4, 0, 0, 16]
+		redstoneGenSpecialBiomes = []
+		redstoneGenBiomeBlacklist = []
+		redstoneGenBiomeWhitelist = []
+
+	["Vanilla Ore Generation"."Iron Ore"]
+		ironGenSpecialBiomes = []
+		ironGenBiomeBlacklist = []
+		#Ore vein data [size, count, bottom offset, top offset, max height]
+		ironGenCountRange = [9, 6, 0, 0, 64]
+		ironGenBiomeWhitelist = []
+		ironGenIsEnabled = true
+
+	["Vanilla Ore Generation"."Lapis Lazuli Ore"]
+		lapisGenBiomeWhitelist = []
+		lapisGenBiomeBlacklist = []
+		lapisGenIsEnabled = true
+		lapisGenSpecialBiomes = []
+

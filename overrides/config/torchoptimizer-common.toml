@@ -1,0 +1,22 @@
+
+[General]
+	#The distance (in chunks) of rendering radius.
+	#Range: 1 ~ 16
+	chunkRadius = 3
+	#Show optimimal torch placement
+	optimize = true
+	#Shows an asterisk on the ground to indicate where to put your torch.
+	#Range: 1 ~ 15
+	optimizeValue = 2
+	#If set to true, the sunlight/moonlight will be counted in light level.
+	useSkyLight = false
+	#The update interval (in milliseconds) of light level. Farther chunks update less frequently.
+	#Range: 1 ~ 20000
+	pollingInterval = 200
+	#How to display numbers? 
+	#0 - Standard: Show green (safe) and red (spawnable) areas.
+	#1 - Advanced: Show green (safe), red (always spawnable) and yellow (currently safe, but will be spawnable at night) areas.
+	#2 - Minimal: Do not show green area. For other areas, use standard mode when not counting sky light, or advanced mode otherwise.
+	#Range: 0 ~ 5
+	displayMode = 0
+

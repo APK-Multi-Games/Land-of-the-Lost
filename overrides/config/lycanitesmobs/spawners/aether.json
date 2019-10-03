@@ -11,7 +11,7 @@
     {
       "type": "world",
       "dimensionIds": [
-        4
+        "aether:aether"
       ],
       "dimensionListType": "whitelist"
     }

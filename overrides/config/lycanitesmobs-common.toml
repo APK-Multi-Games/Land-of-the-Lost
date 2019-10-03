@@ -226,6 +226,8 @@
 	disableDungeonSpawners = false
 
 ["Creature Subspecies"]
+	#If set to true, rare subspecies will despawn naturally over time.
+	rareDespawning = false
 	#When a creature with the uncommon subspecies (Azure, Verdant, etc) dies, its experience amount is multiplied by this value.
 	uncommonExperienceScale = 2.0
 	#When a creature with the rare subspecies (Celestial, Lunar, etc) dies, its item drops amount is multiplied by this value.

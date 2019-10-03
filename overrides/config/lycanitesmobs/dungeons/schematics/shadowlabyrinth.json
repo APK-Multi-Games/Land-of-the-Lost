@@ -9,8 +9,8 @@
     {
       "type": "world",
       "dimensionIds": [
-        0,
-        1
+        "minecraft:overworld",
+        "minecraft:the_nether"
       ],
       "dimensionListType": "whitelist",
       "biomeTags": [

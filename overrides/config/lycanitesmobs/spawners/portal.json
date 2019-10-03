@@ -11,7 +11,7 @@
     {
       "type": "world",
       "dimensionIds": [
-        -1
+        "minecraft:the_nether"
       ],
       "dimensionListType": "blacklist"
     }

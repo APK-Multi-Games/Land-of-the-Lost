@@ -1,6 +1,6 @@
 {
   "name": "asmodeus",
-  "creatureType": "demon",
+  "creatureType": "aberration",
   "groups": [
     "boss"
   ],
@@ -13,7 +13,7 @@
     "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [
-      -1
+      "minecraft:the_nether"
     ],
     "dimensionListType": "whitelist",
     "ignoreBiome": false,

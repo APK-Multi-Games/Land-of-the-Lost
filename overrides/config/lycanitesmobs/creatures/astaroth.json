@@ -1,6 +1,6 @@
 {
   "name": "astaroth",
-  "creatureType": "demon",
+  "creatureType": "aberration",
   "groups": [
     "monster"
   ],
@@ -18,8 +18,8 @@
     ],
     "disableSubspecies": false,
     "dimensionIds": [
-      -1,
-      1
+      "minecraft:the_nether",
+      "minecraft:the_end"
     ],
     "dimensionListType": "whitelist",
     "ignoreBiome": true,
@@ -76,7 +76,7 @@
         {
           "type": "world",
           "dimensionIds": [
-            1
+            "minecraft:the_end"
           ],
           "dimensionListType": "whitelist"
         }
@@ -93,7 +93,7 @@
         {
           "type": "world",
           "dimensionIds": [
-            1
+            "minecraft:the_end"
           ],
           "dimensionListType": "whitelist"
         }
@@ -110,7 +110,7 @@
         {
           "type": "world",
           "dimensionIds": [
-            1
+            "minecraft:the_end"
           ],
           "dimensionListType": "whitelist"
         }

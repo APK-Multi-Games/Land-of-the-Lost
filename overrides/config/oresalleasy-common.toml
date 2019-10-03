@@ -26,6 +26,22 @@
 		silverGenCountRange = [9, 2, 16, 0, 36]
 		silverGenIsEnabled = true
 
+	["OresAllEasy Ore Generation"."Nickel Ore"]
+		nickelGenIsEnabled = true
+		#Ore vein data [size, count, bottom offset, top offset, max height]
+		nickelGenCountRange = [9, 5, 0, 0, 32]
+		nickelGenSpecialBiomes = []
+		nickelGenBiomeWhitelist = []
+		nickelGenBiomeBlacklist = []
+
+	["OresAllEasy Ore Generation"."Zinc Ore"]
+		zincGenIsEnabled = false
+		zincGenBiomeBlacklist = []
+		zincGenBiomeWhitelist = []
+		zincGenSpecialBiomes = []
+		#Ore vein data [size, count, bottom offset, top offset, max height]
+		zincGenCountRange = [8, 4, 32, 0, 52]
+
 	["OresAllEasy Ore Generation"."Quartz Ore"]
 		quartzGenIsEnabled = true
 		#Ore vein data [size, count, bottom offset, top offset, max height]
@@ -58,6 +74,12 @@
 		tinGenBiomeBlacklist = []
 		tinGenBiomeWhitelist = []
 
+	["OresAllEasy Ore Generation"."Mithril Ore"]
+		mithrilGenBiomeBlacklist = []
+		mithrilGenBiomeWhitelist = []
+		mithrilGenIsEnabled = true
+		mithrilGenSpecialBiomes = ["minecraft:dark_forest", "minecraft:dark_forest_hills"]
+
 ["Vanilla Ore Generation"]
 
 	["Vanilla Ore Generation"."Diamond Ore"]
@@ -72,6 +94,7 @@
 		emeraldGenBiomeWhitelist = ["minecraft:mountains", "minecraft:mountain_edge", "minecraft:snowy_taiga_mountains", "minecraft:modified_gravelly_mountains", "minecraft:taiga_mountains", "minecraft:wooded_mountains", "minecraft:snowy_mountains", "minecraft:gravelly_mountains"]
 		emeraldGenBiomeBlacklist = []
 		emeraldGenIsEnabled = true
+		emeraldGenSpecialBiomes = []
 
 	["Vanilla Ore Generation"."Gold Ore"]
 		#Ore vein data [size, count, bottom offset, top offset, max height]

@@ -1,0 +1,139 @@
+
+#General bot Configuration
+[generalSettings]
+	#Insert your Bot Token here!
+	#DO NOT SHARE IT WITH ANYONE!
+	botToken = "INSERT BOT TOKEN HERE"
+	#The Name of the Game
+	botPresenceName = "Minecraft"
+	#Allowed Values: WATCHING, PLAYING, LISTENING, DISABLED
+	botPresenceType = "PLAYING"
+	#The channel ID where the bot will be working in
+	botChannel = "000000000"
+	#Wether or not the Bot should modify the channel description
+	botModifyDescription = true
+	#If you think the update check is annoying disable this
+	#Update checking is not yet implemented!!!
+	updateCheck = true
+
+#Webhook configuration
+[webhook]
+	#Wether or not the bot should use a webhook (it will create one)
+	enableWebhook = false
+	#The avatar to be used for server messages
+	serverAvatar = "https://raw.githubusercontent.com/ErdbeerbaerLP/Discord-Chat-Integration/master/images/srv.png"
+	#Wether or not the bot should use a webhook (it will create one)
+	serverName = "Server"
+
+#Customize messages of this mod
+[messages]
+	#This message will edited in / sent when the server finished starting
+	msgServerStarted = "Server Started!"
+	#Message to show while the server is starting
+	#This will be edited to SERVER_STARTED_MSG when webhook is false
+	msgServerStarting = "Server Starting..."
+	#This message will be sent when the server was stopped
+	msgServerStopped = "Server Stopped!"
+	#PLACEHOLDERS:
+	#%player% - The player´s name
+	msgPlayerJoin = "%player% joined"
+	#PLACEHOLDERS:
+	#%player% - The player´s name
+	msgPlayerLeave = "%player% left"
+	#PLACEHOLDERS:
+	#%player% - The player´s name
+	#%msg% - The death message
+	msgPlayerDeath = "%player% %msg%"
+	#The message to print to discord when it was possible to detect a server crash
+	#Will also be used in the channel description
+	msgServerCrash = "Server Crash Detected :thinking:"
+	#This is what will be displayed ingame when someone types into the bot´s channel
+	#PLACEHOLDERS:
+	#%name% - The username
+	#%id% - The user ID
+	#%msg% - The Message
+	ingameDiscordMsg = "§6[§5DISCORD§6]§r <%user%> %msg%"
+	#Supports MulitLined messages using \n
+	#PLACEHOLDERS:
+	#%player% - The player´s name
+	#%name% - The advancement name
+	#%desc% - The advancement description
+	msgAdvancement = "%player% just gained the advancement **%name%**\\n_%desc%_"
+	#Chat message when webhook is disabled
+	#PLACEHOLDERS:
+	#%player% - The player´s name
+	#%msg% - The chat message
+	msgChatMessage = "%player%: %msg%"
+	#Channel description while the server is online
+	#PLACEHOLDERS:
+	#%online% - Online player amount
+	#%max% - Maximum player count
+	#%tps% - Server TPS
+	#%motd% - The server MOTD (from server.properties!)
+	#%uptime% - The uptime of the server
+	description = "%motd% (%online%/%max%) | %tps% TPS | Uptime: %uptime%"
+	#Channel description while the server is offline
+	descriptionOffline = "Server is Offline!"
+	#Channel description while the server is starting
+	descriptionStarting = "Starting..."
+	#PLACEHOLDERS:
+	#%player% - The player´s name
+	#NOTE: This is currently not implemented because mixins are not working in 1.14!
+	msgPlayerTimeout = "%player% timed out!"
+	#Should /say output be sent to discord?
+	enableSayOutput = true
+	#A list of blacklisted modids
+	#Adding one will prevent the mod to send messages to discord using forges IMC system
+	imcModIdBlacklist = "[\"examplemodid\"]"
+
+#Configurate the /discord command useable ingame
+[dc-commands]
+	#The Role ID of your Admin Role
+	adminRoleId = "0"
+	#The prefix of the commands like list
+	prefix = "/"
+	#The message for 'list' when no player is online
+	msgListEmpty = "There is no player online..."
+	#The message for 'list' when one player is online
+	msgListOne = "There is 1 player online:"
+	#The header for 'list'
+	#PLACEHOLDERS:
+	#%amount% - The amount of players online
+	msgListHeader = "There are %amount% players online:"
+	#Message sent when user does not have permission to run a command
+	msgNoPermission = "You don´t have permission to execute this command!"
+	#Message sent when an invalid command was typed
+	#PLACEHOLDERS:
+	#%prefix% - Command prefix
+	msgUnknownCommand = "Unknown command, try `%prefix%help` for a list of commands"
+	#Message if a player provides less arguments than required
+	msgNotEnoughArgs = "Not enough arguments"
+	#Message if a player provides too many arguments
+	msgTooManyArgs = "Too many arguments"
+	#Message if a player can not be found
+	#PLACEHOLDERS:
+	#%player% - The player´s name
+	msgPlayerNotFound = "Can not find player \"%player%\""
+	#Add your Custom commands to this JSON
+	#You can copy-paste it to https://jsoneditoronline.org  Make sure when pasting here, that the json is NOT mulitlined.
+	#You can click on "Compact JSON Data" on the website
+	#NOTE: You MUST op the uuid set at SENDER_UUID in the ops.txt !!!
+	#
+	#mcCommand   -   The command to execute on the server
+	#adminOnly   -   True: Only allows users with the Admin role to use this command. False: @everyone can use the command
+	#description -   Description shown in /help
+	#aliases     -   Aliases for the command in a string array
+	#useArgs     -   Shows argument text after the command
+	#argText     -   Defines custom arg text. Default is <args>
+	jsonCommands = "{\"kick\":{\"adminOnly\":true,\"mcCommand\":\"kick\",\"description\":\"Kicks a player from the server\",\"useArgs\":true,\"argText\":\"\\u003cplayer\\u003e [reason]\"},\"stop\":{\"adminOnly\":true,\"mcCommand\":\"stop\",\"description\":\"Stops the server\",\"aliases\":[\"shutdown\"],\"useArgs\":false},\"kill\":{\"adminOnly\":true,\"mcCommand\":\"kill\",\"description\":\"Kills a player\",\"useArgs\":true,\"argText\":\"\\u003cplayer\\u003e\"}}"
+	#You MUST op this UUID in the ops.txt or many commands wonÂ´t work!!
+	senderUUID = "8d8982a5-8cf9-4604-8feb-3dd5ee1f83a3"
+	#Enable the /discord command?
+	dcCmdEnabled = true
+	#The message displayed when typing /discord in the server chat
+	dcCmdMsg = "Join our discord! http://discord.gg/myserver"
+	#The message shown when hovering the /discord command message
+	dcCmdMsgHover = "Click to open the invite url"
+	#The url to open when clicking the /discord command text
+	dcCmdURL = "http://discord.gg/myserver"
+

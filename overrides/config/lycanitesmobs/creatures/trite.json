@@ -1,6 +1,6 @@
 {
   "name": "trite",
-  "creatureType": "demon",
+  "creatureType": "aberration",
   "groups": [
     "monster"
   ],
@@ -18,7 +18,7 @@
     ],
     "disableSubspecies": false,
     "dimensionIds": [
-      -1
+      "minecraft:the_nether"
     ],
     "dimensionListType": "whitelist",
     "ignoreBiome": true,

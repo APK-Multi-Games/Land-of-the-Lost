@@ -56,8 +56,8 @@
 	xp_loss = 0
 	#Whether graves should be allowed to bypass anti-griefing rules [false/true|default:true]
 	graves_bypass_griefing_rules = true
-	#The chance that a player receives an already enchanted Grave's Key on death [1..100|default:0]
-	#Range: 0 ~ 100
+	#The chance that a player receives an already enchanted Grave's Key on death [-1..100|default:0|disabled:-1]
+	#Range: -1 ~ 100
 	chance_enchanted_graveKey = 0
 	#Enables PvP mode, which allows players to open graves of players they kill [false/true|default:false]
 	pvp_mode = false

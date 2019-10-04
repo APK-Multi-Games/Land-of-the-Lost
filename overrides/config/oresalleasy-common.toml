@@ -34,6 +34,30 @@
 		nickelGenBiomeWhitelist = []
 		nickelGenBiomeBlacklist = []
 
+	["OresAllEasy Ore Generation"."Uranium Ore"]
+		#Ore vein data [size, count, bottom offset, top offset, max height]
+		uraniumGenCountRange = [8, 2, 0, 0, 16]
+		uraniumGenSpecialBiomes = []
+		uraniumGenBiomeBlacklist = []
+		uraniumGenIsEnabled = false
+		uraniumGenBiomeWhitelist = []
+
+	["OresAllEasy Ore Generation"."Chromium Ore"]
+		chromiumGenIsEnabled = true
+		chromiumGenSpecialBiomes = []
+		chromiumGenBiomeBlacklist = []
+		chromiumGenBiomeWhitelist = []
+		#Ore vein data [size, count, bottom offset, top offset, max height]
+		chromiumGenCountRange = [7, 1, 0, 0, 32]
+
+	["OresAllEasy Ore Generation"."Titanium Ore"]
+		#Ore vein data [size, count, bottom offset, top offset, max height]
+		titaniumGenCountRange = [7, 1, 0, 0, 32]
+		titaniumGenSpecialBiomes = []
+		titaniumGenBiomeBlacklist = []
+		titaniumGenIsEnabled = true
+		titaniumGenBiomeWhitelist = []
+
 	["OresAllEasy Ore Generation"."Zinc Ore"]
 		zincGenIsEnabled = false
 		zincGenBiomeBlacklist = []
@@ -65,6 +89,14 @@
 		aluminumGenBiomeWhitelist = []
 		aluminumGenBiomeBlacklist = []
 		aluminumGenSpecialBiomes = []
+
+	["OresAllEasy Ore Generation"."Lead Ore"]
+		leadGenIsEnabled = false
+		leadGenBiomeWhitelist = []
+		leadGenBiomeBlacklist = []
+		#Ore vein data [size, count, bottom offset, top offset, max height]
+		leadGenCountRange = [9, 4, 16, 0, 40]
+		leadGenSpecialBiomes = []
 
 	["OresAllEasy Ore Generation"."Tin Ore"]
 		tinGenIsEnabled = true

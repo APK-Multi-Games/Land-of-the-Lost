@@ -7,9 +7,12 @@ Added Alchemistry
 Added Biomes O'Plenty
 Added Carry on 
 Added CC: Tweaked
-Added Chicken Drop Feathers
 Added Chest Hoppers
+Added Chem Lib
+Added Chicken Drop Feathers
+Added Colossal Chests
 Added Compressium - Forge
+Added CraftTweaker
 Added Create
 Added Discord Intergrationntergration
 Added Dungeon Crawl
@@ -20,7 +23,9 @@ Added Extra Anvils
 Added Fast Furnaces
 Added Iron Shulker Boxes
 Added Minecolonies
-Added Nouse Tweaks
+Added Mouse Tweaks
+Added RFTools Builder
+Added RFTools Ultillities 
 Added Silents's Mechanisms
 Added Solar Generation
 Added Structureize
@@ -34,10 +39,12 @@ Added Vanila Plus: The Veggie Way [FORGE]
 Added Wyrmroost
 
 Removed Mini coal due to pickled tweaks has mini coal and charcoal
+Removed OresAllEasy did not bring anything worth using this mod
 Removed Ultimate Car Mod due to too many conflicts
 Removed QuantumStorage Due to breaking with the new forge update to 28.1.X
 
-Updated to forge 28.1.31
+Updated to forge 28.1.44
+Updated A Lib
 Updated Apotheosis
 Updated Caelus API
 Updated Campfire Torches
@@ -47,6 +54,7 @@ Updated Container
 Updated Controlling
 Updated Corail Tombstone
 Updated Crafting Station
+Updated Crafting Tweaks
 Updated Cyclic
 Updated Cyclops Core
 Updated DefaultSettings
@@ -57,18 +65,23 @@ Updated EverlastingAbilities
 Updated Extended Caves
 Updated Fast Workbench
 Updated Forbidden and Arcanus
+Updated First Aide
 Updated FTB Utilities: Backup
+Updated GemsPlusPlus
 Updated Gobber [FORGE]
 Updated Iron Chest
 Updated Just enough Items (JEI)
 Updated Large Fluid Tank
 Updated Lycabites Mobs
+Updated Metal Barrels
 Updated McJtyLib
-Updated OresAllEasy
+Updated More Progression
+Updated OpenBlocks Elevator
 Updated Overloaded
 Updated Placebo
 Updated Quick Homes
 Updated RandomPatches
+Updated Reap Mod
 Updated RFTools Base
 Updated RFTools Power
 Updated Ring of Attraction [FORGE]
@@ -81,6 +94,7 @@ Updated Ring of the Miner [FORGE]
 Updated Silent Gear
 Updated Silent Gems
 Updated Silent Lib
+Updated Silent's Mechanisms
 Updated Simple Farming
 Updated Simple Storage Network
 Updated Simply Light

@@ -38,7 +38,7 @@
       ],
       "sorting": "random",
       "blocks": [
-        "minecraft:portal"
+        "minecraft:nether_portal"
       ],
       "listType": "whitelist"
     }

@@ -11,6 +11,10 @@
 		#Donation Familiars help support the development of this mod but can be turned of for individual players be adding their username to this list.
 		blacklist = ["Jbams"]
 
+	[Extra.summoningpedestal]
+		#How much summoning time (in ticks) 1 redstone dust provides. 20 ticks = 1 second, default is 12000 (10 minutes).
+		redstonetime = 12000
+
 	[Extra.version]
 		#Set to false to disable the version checker.
 		checker = true

@@ -1,0 +1,199 @@
+
+#Gems Spawn Chance
+[spawnchance]
+	#malachitenetherore spawn chance
+	#Range: 1 ~ 100
+	malachitenetherorespawnchance = 3
+	#agateore spawn chance
+	#Range: 1 ~ 100
+	oreagatespawnchance = 4
+	#sugilitenetherore spawn chance
+	#Range: 1 ~ 100
+	sugilitenetherorespawnchance = 3
+	#jasperore spawn chance
+	#Range: 1 ~ 100
+	jasperorespawnchance = 4
+	#sapphirenetherore spawn chance
+	#Range: 1 ~ 100
+	sapphirenetherorespawnchance = 3
+	#sugiliteore spawn chance
+	#Range: 1 ~ 100
+	sugiliteorespawnchance = 6
+	#malachiteore spawn chance
+	#Range: 1 ~ 100
+	malachiteorespawnchance = 4
+	#citrinenetherore spawn chance
+	#Range: 1 ~ 100
+	citrinenetherorespawnchance = 3
+	#onyxore spawn chance
+	#Range: 1 ~ 100
+	onyxorespawnchance = 4
+	#tourmalineore spawn chance
+	#Range: 1 ~ 100
+	tourmalineorespawnchance = 4
+	#phoenixitenetherore spawn chance
+	#Range: 1 ~ 100
+	phoenixitenetherorespawnchance = 5
+	#tourmalinenetherore spawn chance
+	#Range: 1 ~ 100
+	tourmalinenetherorespawnchance = 3
+	#phoenixiteore spawn chance
+	#Range: 1 ~ 100
+	phoenixiteorespawnchance = 2
+	#rubyore spawn chance
+	#Range: 1 ~ 100
+	rubyorespawnchance = 4
+	#chrysocollanetherore spawn chance
+	#Range: 1 ~ 100
+	chrysocollanetherorespawnchance = 3
+	#jaspernetherore spawn chance
+	#Range: 1 ~ 100
+	jaspernetherorespawnchance = 3
+	#jadenetherore spawn chance
+	#Range: 1 ~ 100
+	jadenetherorespawnchance = 3
+	#jadeore spawn chance
+	#Range: 1 ~ 100
+	jadeorespawnchance = 4
+	#sapphireore spawn chance
+	#Range: 1 ~ 100
+	sapphireorespawnchance = 4
+	#amethystore spawn chance
+	#Range: 1 ~ 100
+	amethystorespawnchance = 4
+	#topazore spawn chance
+	#Range: 1 ~ 100
+	topazorespawnchance = 4
+	#garnetnetherore spawn chance
+	#Range: 1 ~ 100
+	garnetnetherorespawnchance = 3
+	#rubynetherore spawn chance
+	#Range: 1 ~ 100
+	rubynetherorespawnchance = 3
+	#agatenetherore spawn chance
+	#Range: 1 ~ 100
+	agatenetherorespawnchance = 2
+	#spinelore spawn chance
+	#Range: 1 ~ 100
+	spinelorespawnchance = 4
+	#chrysocollaore spawn chance
+	#Range: 1 ~ 100
+	chrysocollaorespawnchance = 4
+	#amethystnetherore spawn chance
+	#Range: 1 ~ 100
+	amethystnetherorespawnchance = 3
+	#spinelnetherore spawn chance
+	#Range: 1 ~ 100
+	spinelnetherorespawnchance = 3
+	#topaznetherore spawn chance
+	#Range: 1 ~ 100
+	topaznetherorespawnchance = 3
+	#citrineore spawn chance
+	#Range: 1 ~ 100
+	citrineorespawnchance = 4
+	#garnetore spawn chance
+	#Range: 1 ~ 100
+	garnetorespawnchance = 4
+	#onyxnetherore spawn chance
+	#Range: 1 ~ 100
+	onyxnetherorespawnchance = 3
+
+#Gems Vein Size
+[veinsize]
+	#spinel nether ore veinsize
+	#Range: 1 ~ 100
+	"spinel nether ore veinsize" = 2
+	#garnet ore veinsize
+	#Range: 1 ~ 100
+	"garnet ore veinsize" = 2
+	#spinel ore veinsize
+	#Range: 1 ~ 100
+	"spinel ore veinsize" = 2
+	#jasper nether ore veinsize
+	#Range: 1 ~ 100
+	"jasper nether ore veinsize" = 2
+	#amethyst ore veinsize
+	#Range: 1 ~ 100
+	"amethyst ore veinsize" = 2
+	#jasper ore veinsize
+	#Range: 1 ~ 100
+	"jasper ore veinsize" = 2
+	#tourmaline ore veinsize
+	#Range: 1 ~ 100
+	"tourmaline ore veinsize" = 2
+	#jade ore veinsize
+	#Range: 1 ~ 100
+	"jade ore veinsize" = 2
+	#sugilite ore veinsize
+	#Range: 1 ~ 100
+	"sugilite ore veinsize" = 2
+	#ruby nether ore veinsize
+	#Range: 1 ~ 100
+	"ruby nether ore veinsize" = 2
+	#tourmaline nether ore veinsize
+	#Range: 1 ~ 100
+	"tourmaline nether ore veinsize" = 5
+	#chrysocolla nether ore veinsize
+	#Range: 1 ~ 100
+	"chrysocolla nether ore veinsize" = 2
+	#jade nether ore veinsize
+	#Range: 1 ~ 100
+	"jade nether ore veinsize" = 2
+	#topaz ore veinsize
+	#Range: 1 ~ 100
+	"topaz ore veinsize" = 2
+	#citrine ore veinsize
+	#Range: 1 ~ 100
+	"citrine ore veinsize" = 2
+	#chrysocolla ore veinsize
+	#Range: 1 ~ 100
+	"chrysocolla ore veinsize" = 2
+	#phoenixite ore veinsize
+	#Range: 1 ~ 100
+	"phoenixite ore veinsize" = 2
+	#phoenixite nether ore veinsize
+	#Range: 1 ~ 100
+	"phoenixite nether ore veinsize" = 5
+	#ruby ore veinsize
+	#Range: 1 ~ 100
+	"ruby ore veinsize" = 2
+	#onyx ore veinsize
+	#Range: 1 ~ 100
+	"onyx ore veinsize" = 2
+	#sapphire nether ore veinsize
+	#Range: 1 ~ 100
+	"sapphire nether ore veinsize" = 2
+	#malachite nether ore veinsize
+	#Range: 1 ~ 100
+	"malachite nether ore veinsize" = 2
+	#sugilite nether ore veinsize
+	#Range: 1 ~ 100
+	"sugilite nether ore veinsize" = 2
+	#citrine nether ore veinsize
+	#Range: 1 ~ 100
+	"citrine nether ore veinsize" = 2
+	#agate ore veinsize
+	#Range: 1 ~ 100
+	"agate ore veinsize" = 2
+	#topaz nether ore veinsize
+	#Range: 1 ~ 100
+	"topaz nether ore veinsize" = 2
+	#onyx nether ore veinsize
+	#Range: 1 ~ 100
+	"onyx nether ore veinsize" = 2
+	#garnet nether ore veinsize
+	#Range: 1 ~ 100
+	"garnet nether ore veinsize" = 2
+	#agate nether ore veinsize
+	#Range: 1 ~ 100
+	"agate nether ore veinsize" = 2
+	#malachite ore veinsize
+	#Range: 1 ~ 100
+	"malachite ore veinsize" = 2
+	#sapphire ore veinsize
+	#Range: 1 ~ 100
+	"sapphire ore veinsize" = 2
+	#amethyst nether ore veinsize
+	#Range: 1 ~ 100
+	"amethyst nether ore veinsize" = 2
+

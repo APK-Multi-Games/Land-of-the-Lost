@@ -72,7 +72,7 @@
 	armorstands_upsized_stack = 64
 	#New stack size for empty buckets; default is 32.
 	#Range: 1 ~ 64
-	buckets_upsized_stack = 32
+	buckets_upsized_stack = 64
 	#New stack size for signs; default is 64.
 	#Range: 1 ~ 64
 	signs_upsized_stack = 64
@@ -107,28 +107,28 @@
 	boats_storage_stack = 4
 	#New storage stack for writable books; default is 16.
 	#Range: 1 ~ 64
-	writable_books_storage_stack = 16
+	writable_books_storage_stack = 64
 	#New storage stack for saddles; default is 16.
 	#Range: 1 ~ 64
-	saddles_storage_stack = 16
+	saddles_storage_stack = 64
 	#New storage stack for potion bottles; default is 4.
 	#Range: 1 ~ 64
-	potions_storage_stack = 4
+	potions_storage_stack = 64
 	#New storage stack for filled lava buckets; default is 1.
 	#Range: 1 ~ 64
 	lava_buckets_storage_stack = 1
 	#New storage stack for horse armor; default is 16.
 	#Range: 1 ~ 64
-	horse_armor_storage_stack = 16
+	horse_armor_storage_stack = 64
 	#New storage stack for stews and soups; default is 16.
 	#Range: 1 ~ 64
-	stews_storage_stack = 16
+	stews_storage_stack = 64
 	#New storage stack for weapons; default is 1.
 	#Range: 1 ~ 64
 	weapons_storage_stack = 1
 	#New storage stack for enchanted books; default is 4.
 	#Range: 1 ~ 64
-	enchanted_books_storage_stack = 4
+	enchanted_books_storage_stack = 64
 	#New storage stack for filled water buckets; default is 1.
 	#Range: 1 ~ 64
 	water_buckets_storage_stack = 1

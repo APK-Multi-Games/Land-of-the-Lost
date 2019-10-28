@@ -1,0 +1,170 @@
+
+[Ranks]
+
+	[Ranks.Default]
+		prefix = "Player"
+		perms = ["serverutils.back", "serverutils.delhome", "serverutils.home", "serverutils.maxhome_1", "serverutils.homes", "serverutils.rtp", "serverutils.rtpnear", "serverutils.rtpfar", "serverutils.sethome", "serverutils.spawn", "serverutils.tpa", "serverutils.tpa.here", "serverutils.tpa.deny", "serverutils.tpa.accept", "serverutils.warp", "serverutils.warps"]
+
+[Commands]
+
+	[Commands.rtpnear]
+		#Range: > 0
+		delay = 5
+		perm = "serverutils.rtpnear"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.delhome]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.delhome"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.delwarp]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.delwarp"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.tpaAccept]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.tpa.accept"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.tpa]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.tpa"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+		#Range: > 0
+		"tp time" = 5
+
+	[Commands.back]
+		#Range: > 0
+		delay = 5
+		perm = "serverutils.back"
+		enable = true
+		#Range: > 0
+		cooldown = 30
+		enable-on-death = true
+
+	[Commands.permission]
+		perm = "serverutils.permission"
+		enable = true
+
+	[Commands.setwarp]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.setwarp"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.setspawn]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.setspawn"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.home]
+		#Range: > 0
+		delay = 5
+		perm = "serverutils.home"
+		home-max-perm = "serverutils.maxhome_"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.rtp]
+		#Range: > 0
+		delay = 5
+		perm = "serverutils.rtp"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.warps]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.warps"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.spawn]
+		#Range: > 0
+		delay = 5
+		perm = "serverutils.spawn"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.rtpfar]
+		#Range: > 0
+		delay = 5
+		perm = "serverutils.rtpfar"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.sethome]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.sethome"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.homes]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.homes"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.rank]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.rank"
+		enable = true
+		#Range: > 0
+		cooldwon = 0
+		modify-rank = "serverutils.rank.modify"
+
+	[Commands.tpaDeny]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.tpa.deny"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.tpaHere]
+		#Range: > 0
+		delay = 0
+		perm = "serverutils.tpa.here"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+
+	[Commands.warp]
+		#Range: > 0
+		delay = 5
+		perm = "serverutils.warp"
+		enable = true
+		#Range: > 0
+		cooldown = 0
+

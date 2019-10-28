@@ -70,12 +70,16 @@
 	msgServerStopped = "Server Stopped!"
 	#This is what will be displayed ingame when someone types into the bot´s channel
 	#PLACEHOLDERS:
-	#%name% - The username
+	#%user% - The username
 	#%id% - The user ID
 	#%msg% - The Message
 	ingameDiscordMsg = "§6[§5DISCORD§6]§r <%user%> %msg%"
 	#Channel description while the server is offline
 	descriptionOffline = "Server is Offline!"
+	#Should /me output be sent to discord?
+	enableMeOutput = true
+	#Should tamed entity death be visible in discord?
+	tamedDeathEnabled = false
 	#PLACEHOLDERS:
 	#%player% - The player´s name
 	msgPlayerJoin = "%player% joined"

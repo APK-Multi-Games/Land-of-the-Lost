@@ -3,7 +3,7 @@
     "version": "1.14.4",
     "modLoaders": [
       {
-        "id": "forge-28.1.70",
+        "id": "forge-28.1.74",
         "primary": true
       }
     ]
@@ -11,12 +11,12 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Land of the Lost 1.14.4",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "raziel23x",
   "files": [
     {
       "projectID": 318551,
-      "fileID": 2813568,
+      "fileID": 2818189,
       "required": true
     },
     {
@@ -80,6 +80,11 @@
       "required": true
     },
     {
+      "projectID": 349596,
+      "fileID": 2817780,
+      "required": true
+    },
+    {
       "projectID": 285612,
       "fileID": 2803612,
       "required": true
@@ -115,8 +120,13 @@
       "required": true
     },
     {
+      "projectID": 318872,
+      "fileID": 2762080,
+      "required": true
+    },
+    {
       "projectID": 301700,
-      "fileID": 2814682,
+      "fileID": 2818242,
       "required": true
     },
     {
@@ -166,7 +176,7 @@
     },
     {
       "projectID": 273744,
-      "fileID": 2807729,
+      "fileID": 2811353,
       "required": true
     },
     {
@@ -221,7 +231,7 @@
     },
     {
       "projectID": 245506,
-      "fileID": 2817345,
+      "fileID": 2818196,
       "required": true
     },
     {
@@ -236,7 +246,7 @@
     },
     {
       "projectID": 291493,
-      "fileID": 2783106,
+      "fileID": 2816173,
       "required": true
     },
     {
@@ -251,7 +261,7 @@
     },
     {
       "projectID": 287342,
-      "fileID": 2783104,
+      "fileID": 2816169,
       "required": true
     },
     {
@@ -292,6 +302,11 @@
     {
       "projectID": 274338,
       "fileID": 2817917,
+      "required": true
+    },
+    {
+      "projectID": 334453,
+      "fileID": 2817157,
       "required": true
     },
     {
@@ -501,7 +516,7 @@
     },
     {
       "projectID": 314569,
-      "fileID": 2758215,
+      "fileID": 2813122,
       "required": true
     },
     {
